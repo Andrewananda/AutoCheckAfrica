@@ -69,8 +69,8 @@ class CarDetailsVC: UIViewController {
     }
     
     private func loadCarDetails() {
-        viewModel.carDetailsLiveData.subscribe(onNext: {res in
-            self.displayData(data: res)
+        viewModel.carDetailsLiveData.subscribe(onNext: {[weak self] res in
+            self?.displayData(data: res)
         }).disposed(by: bag)
         viewModel.fetchCarDetails(id: id)
     }
@@ -259,8 +259,6 @@ class CarDetailsVC: UIViewController {
     @objc func displayAlert() {
         let alert = UIAlertController(title: "Comming Soon!", message: "\nWork in progress...", preferredStyle: .alert)
         let action=UIAlertAction(title: "Dismiss", style: .destructive, handler:{ action in
-            DispatchQueue.main.async(execute: {
-            })
         })
         
         alert.addAction(action)

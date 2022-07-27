@@ -8,8 +8,6 @@
 import Foundation
 import UIKit
 
-import UIKit
-
 func thinFont(size: CGFloat) -> UIFont {
     let font = UIFont(name: "Now Thin", size: size) ?? UIFont.systemFont(ofSize: size, weight: .thin)
     return font

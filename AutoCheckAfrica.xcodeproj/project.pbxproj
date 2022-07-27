@@ -9,10 +9,9 @@
 /* Begin PBXBuildFile section */
 		580F47E7288D3C07001AD0BD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 580F47E6288D3C07001AD0BD /* AppDelegate.swift */; };
 		580F47E9288D3C07001AD0BD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 580F47E8288D3C07001AD0BD /* SceneDelegate.swift */; };
-		580F47EB288D3C07001AD0BD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 580F47EA288D3C07001AD0BD /* ViewController.swift */; };
 		580F47F0288D3C0A001AD0BD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 580F47EF288D3C0A001AD0BD /* Assets.xcassets */; };
 		580F47F3288D3C0A001AD0BD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 580F47F1288D3C0A001AD0BD /* LaunchScreen.storyboard */; };
-		580F4800288D46E7001AD0BD /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 580F47FF288D46E7001AD0BD /* TableViewController.swift */; };
+		580F4800288D46E7001AD0BD /* TabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 580F47FF288D46E7001AD0BD /* TabViewController.swift */; };
 		580F4804288D4760001AD0BD /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 580F4803288D4760001AD0BD /* HomeVC.swift */; };
 		580F4809288D4CF7001AD0BD /* Fonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 580F4808288D4CF7001AD0BD /* Fonts.swift */; };
 		580F480B288D5149001AD0BD /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 580F480A288D5149001AD0BD /* Extensions.swift */; };
@@ -37,11 +36,10 @@
 		580F47E3288D3C07001AD0BD /* AutoCheckAfrica.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AutoCheckAfrica.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		580F47E6288D3C07001AD0BD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		580F47E8288D3C07001AD0BD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		580F47EA288D3C07001AD0BD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		580F47EF288D3C0A001AD0BD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		580F47F2288D3C0A001AD0BD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		580F47F4288D3C0A001AD0BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		580F47FF288D46E7001AD0BD /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		580F47FF288D46E7001AD0BD /* TabViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabViewController.swift; sourceTree = "<group>"; };
 		580F4803288D4760001AD0BD /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
 		580F4808288D4CF7001AD0BD /* Fonts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fonts.swift; sourceTree = "<group>"; };
 		580F480A288D5149001AD0BD /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
@@ -137,7 +135,6 @@
 			children = (
 				580F4802288D4749001AD0BD /* Screens */,
 				580F47FE288D46C8001AD0BD /* Core */,
-				580F47EA288D3C07001AD0BD /* ViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -145,7 +142,7 @@
 		580F47FE288D46C8001AD0BD /* Core */ = {
 			isa = PBXGroup;
 			children = (
-				580F47FF288D46E7001AD0BD /* TableViewController.swift */,
+				580F47FF288D46E7001AD0BD /* TabViewController.swift */,
 			);
 			path = Core;
 			sourceTree = "<group>";
@@ -282,7 +279,6 @@
 				588D7104289145CC00FB931B /* CarDetailsViewModel.swift in Sources */,
 				588D70FE289110B200FB931B /* ViewUtils.swift in Sources */,
 				588D70EC2890AE3500FB931B /* CarsModel.swift in Sources */,
-				580F47EB288D3C07001AD0BD /* ViewController.swift in Sources */,
 				580F4811288D567A001AD0BD /* PopularCarsModel.swift in Sources */,
 				580F4804288D4760001AD0BD /* HomeVC.swift in Sources */,
 				588D70EA2890ADC400FB931B /* CarsViewCell.swift in Sources */,
@@ -293,7 +289,7 @@
 				580F47E9288D3C07001AD0BD /* SceneDelegate.swift in Sources */,
 				580F480E288D5616001AD0BD /* PopularCarsCell.swift in Sources */,
 				580F4809288D4CF7001AD0BD /* Fonts.swift in Sources */,
-				580F4800288D46E7001AD0BD /* TableViewController.swift in Sources */,
+				580F4800288D46E7001AD0BD /* TabViewController.swift in Sources */,
 				588D70FA2890D1B800FB931B /* NetworkService.swift in Sources */,
 				580F480B288D5149001AD0BD /* Extensions.swift in Sources */,
 			);
