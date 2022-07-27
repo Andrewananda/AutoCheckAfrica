@@ -10,9 +10,27 @@
 		580F47E7288D3C07001AD0BD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 580F47E6288D3C07001AD0BD /* AppDelegate.swift */; };
 		580F47E9288D3C07001AD0BD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 580F47E8288D3C07001AD0BD /* SceneDelegate.swift */; };
 		580F47EB288D3C07001AD0BD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 580F47EA288D3C07001AD0BD /* ViewController.swift */; };
-		580F47EE288D3C07001AD0BD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 580F47EC288D3C07001AD0BD /* Main.storyboard */; };
 		580F47F0288D3C0A001AD0BD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 580F47EF288D3C0A001AD0BD /* Assets.xcassets */; };
 		580F47F3288D3C0A001AD0BD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 580F47F1288D3C0A001AD0BD /* LaunchScreen.storyboard */; };
+		580F4800288D46E7001AD0BD /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 580F47FF288D46E7001AD0BD /* TableViewController.swift */; };
+		580F4804288D4760001AD0BD /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 580F4803288D4760001AD0BD /* HomeVC.swift */; };
+		580F4809288D4CF7001AD0BD /* Fonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 580F4808288D4CF7001AD0BD /* Fonts.swift */; };
+		580F480B288D5149001AD0BD /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 580F480A288D5149001AD0BD /* Extensions.swift */; };
+		580F480E288D5616001AD0BD /* PopularCarsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 580F480D288D5616001AD0BD /* PopularCarsCell.swift */; };
+		580F4811288D567A001AD0BD /* PopularCarsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 580F4810288D567A001AD0BD /* PopularCarsModel.swift */; };
+		580F4814288D594C001AD0BD /* SDWebImage in Frameworks */ = {isa = PBXBuildFile; productRef = 580F4813288D594C001AD0BD /* SDWebImage */; };
+		588D70EA2890ADC400FB931B /* CarsViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 588D70E92890ADC400FB931B /* CarsViewCell.swift */; };
+		588D70EC2890AE3500FB931B /* CarsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 588D70EB2890AE3500FB931B /* CarsModel.swift */; };
+		588D70EF2890B5F500FB931B /* SVGKit in Frameworks */ = {isa = PBXBuildFile; productRef = 588D70EE2890B5F500FB931B /* SVGKit */; };
+		588D70F22890D0F000FB931B /* RxRelay in Frameworks */ = {isa = PBXBuildFile; productRef = 588D70F12890D0F000FB931B /* RxRelay */; };
+		588D70F42890D0F000FB931B /* RxSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 588D70F32890D0F000FB931B /* RxSwift */; };
+		588D70F72890D16100FB931B /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 588D70F62890D16100FB931B /* Alamofire */; };
+		588D70FA2890D1B800FB931B /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 588D70F92890D1B800FB931B /* NetworkService.swift */; };
+		588D70FC2890D29B00FB931B /* CarViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 588D70FB2890D29B00FB931B /* CarViewModel.swift */; };
+		588D70FE289110B200FB931B /* ViewUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 588D70FD289110B200FB931B /* ViewUtils.swift */; };
+		588D71002891412B00FB931B /* CarDetailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 588D70FF2891412B00FB931B /* CarDetailsVC.swift */; };
+		588D71022891443C00FB931B /* CarDetailModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 588D71012891443C00FB931B /* CarDetailModel.swift */; };
+		588D7104289145CC00FB931B /* CarDetailsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 588D7103289145CC00FB931B /* CarDetailsViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,10 +38,23 @@
 		580F47E6288D3C07001AD0BD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		580F47E8288D3C07001AD0BD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		580F47EA288D3C07001AD0BD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		580F47ED288D3C07001AD0BD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		580F47EF288D3C0A001AD0BD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		580F47F2288D3C0A001AD0BD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		580F47F4288D3C0A001AD0BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		580F47FF288D46E7001AD0BD /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		580F4803288D4760001AD0BD /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
+		580F4808288D4CF7001AD0BD /* Fonts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fonts.swift; sourceTree = "<group>"; };
+		580F480A288D5149001AD0BD /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		580F480D288D5616001AD0BD /* PopularCarsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopularCarsCell.swift; sourceTree = "<group>"; };
+		580F4810288D567A001AD0BD /* PopularCarsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopularCarsModel.swift; sourceTree = "<group>"; };
+		588D70E92890ADC400FB931B /* CarsViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarsViewCell.swift; sourceTree = "<group>"; };
+		588D70EB2890AE3500FB931B /* CarsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarsModel.swift; sourceTree = "<group>"; };
+		588D70F92890D1B800FB931B /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
+		588D70FB2890D29B00FB931B /* CarViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarViewModel.swift; sourceTree = "<group>"; };
+		588D70FD289110B200FB931B /* ViewUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewUtils.swift; sourceTree = "<group>"; };
+		588D70FF2891412B00FB931B /* CarDetailsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarDetailsVC.swift; sourceTree = "<group>"; };
+		588D71012891443C00FB931B /* CarDetailModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarDetailModel.swift; sourceTree = "<group>"; };
+		588D7103289145CC00FB931B /* CarDetailsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarDetailsViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +62,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				588D70F72890D16100FB931B /* Alamofire in Frameworks */,
+				588D70F22890D0F000FB931B /* RxRelay in Frameworks */,
+				588D70EF2890B5F500FB931B /* SVGKit in Frameworks */,
+				588D70F42890D0F000FB931B /* RxSwift in Frameworks */,
+				580F4814288D594C001AD0BD /* SDWebImage in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,15 +92,108 @@
 		580F47E5288D3C07001AD0BD /* AutoCheckAfrica */ = {
 			isa = PBXGroup;
 			children = (
-				580F47E6288D3C07001AD0BD /* AppDelegate.swift */,
-				580F47E8288D3C07001AD0BD /* SceneDelegate.swift */,
-				580F47EA288D3C07001AD0BD /* ViewController.swift */,
-				580F47EC288D3C07001AD0BD /* Main.storyboard */,
-				580F47EF288D3C0A001AD0BD /* Assets.xcassets */,
-				580F47F1288D3C0A001AD0BD /* LaunchScreen.storyboard */,
+				588D70F82890D1A300FB931B /* Network */,
+				580F480F288D5668001AD0BD /* Models */,
+				580F4807288D4CE7001AD0BD /* Utils */,
+				580F47FD288D46A0001AD0BD /* Controllers */,
+				580F47FC288D4698001AD0BD /* ViewModels */,
+				580F47FB288D4687001AD0BD /* Views */,
+				580F47FA288D4668001AD0BD /* Resources */,
 				580F47F4288D3C0A001AD0BD /* Info.plist */,
 			);
 			path = AutoCheckAfrica;
+			sourceTree = "<group>";
+		};
+		580F47FA288D4668001AD0BD /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				580F47EF288D3C0A001AD0BD /* Assets.xcassets */,
+				580F47E6288D3C07001AD0BD /* AppDelegate.swift */,
+				580F47E8288D3C07001AD0BD /* SceneDelegate.swift */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		580F47FB288D4687001AD0BD /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				580F480C288D55E7001AD0BD /* Cells */,
+				580F47F1288D3C0A001AD0BD /* LaunchScreen.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		580F47FC288D4698001AD0BD /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				588D70FB2890D29B00FB931B /* CarViewModel.swift */,
+				588D7103289145CC00FB931B /* CarDetailsViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		580F47FD288D46A0001AD0BD /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				580F4802288D4749001AD0BD /* Screens */,
+				580F47FE288D46C8001AD0BD /* Core */,
+				580F47EA288D3C07001AD0BD /* ViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		580F47FE288D46C8001AD0BD /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				580F47FF288D46E7001AD0BD /* TableViewController.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		580F4802288D4749001AD0BD /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				580F4803288D4760001AD0BD /* HomeVC.swift */,
+				588D70FF2891412B00FB931B /* CarDetailsVC.swift */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		580F4807288D4CE7001AD0BD /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				580F4808288D4CF7001AD0BD /* Fonts.swift */,
+				580F480A288D5149001AD0BD /* Extensions.swift */,
+				588D70FD289110B200FB931B /* ViewUtils.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		580F480C288D55E7001AD0BD /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				580F480D288D5616001AD0BD /* PopularCarsCell.swift */,
+				588D70E92890ADC400FB931B /* CarsViewCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		580F480F288D5668001AD0BD /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				580F4810288D567A001AD0BD /* PopularCarsModel.swift */,
+				588D70EB2890AE3500FB931B /* CarsModel.swift */,
+				588D71012891443C00FB931B /* CarDetailModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		588D70F82890D1A300FB931B /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				588D70F92890D1B800FB931B /* NetworkService.swift */,
+			);
+			path = Network;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +212,13 @@
 			dependencies = (
 			);
 			name = AutoCheckAfrica;
+			packageProductDependencies = (
+				580F4813288D594C001AD0BD /* SDWebImage */,
+				588D70EE2890B5F500FB931B /* SVGKit */,
+				588D70F12890D0F000FB931B /* RxRelay */,
+				588D70F32890D0F000FB931B /* RxSwift */,
+				588D70F62890D16100FB931B /* Alamofire */,
+			);
 			productName = AutoCheckAfrica;
 			productReference = 580F47E3288D3C07001AD0BD /* AutoCheckAfrica.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +247,12 @@
 				Base,
 			);
 			mainGroup = 580F47DA288D3C07001AD0BD;
+			packageReferences = (
+				580F4812288D594C001AD0BD /* XCRemoteSwiftPackageReference "SDWebImage" */,
+				588D70ED2890B5F500FB931B /* XCRemoteSwiftPackageReference "SVGKit" */,
+				588D70F02890D0F000FB931B /* XCRemoteSwiftPackageReference "RxSwift" */,
+				588D70F52890D16100FB931B /* XCRemoteSwiftPackageReference "Alamofire" */,
+			);
 			productRefGroup = 580F47E4288D3C07001AD0BD /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -127,7 +269,6 @@
 			files = (
 				580F47F3288D3C0A001AD0BD /* LaunchScreen.storyboard in Resources */,
 				580F47F0288D3C0A001AD0BD /* Assets.xcassets in Resources */,
-				580F47EE288D3C07001AD0BD /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,23 +279,29 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				588D7104289145CC00FB931B /* CarDetailsViewModel.swift in Sources */,
+				588D70FE289110B200FB931B /* ViewUtils.swift in Sources */,
+				588D70EC2890AE3500FB931B /* CarsModel.swift in Sources */,
 				580F47EB288D3C07001AD0BD /* ViewController.swift in Sources */,
+				580F4811288D567A001AD0BD /* PopularCarsModel.swift in Sources */,
+				580F4804288D4760001AD0BD /* HomeVC.swift in Sources */,
+				588D70EA2890ADC400FB931B /* CarsViewCell.swift in Sources */,
+				588D71002891412B00FB931B /* CarDetailsVC.swift in Sources */,
 				580F47E7288D3C07001AD0BD /* AppDelegate.swift in Sources */,
+				588D70FC2890D29B00FB931B /* CarViewModel.swift in Sources */,
+				588D71022891443C00FB931B /* CarDetailModel.swift in Sources */,
 				580F47E9288D3C07001AD0BD /* SceneDelegate.swift in Sources */,
+				580F480E288D5616001AD0BD /* PopularCarsCell.swift in Sources */,
+				580F4809288D4CF7001AD0BD /* Fonts.swift in Sources */,
+				580F4800288D46E7001AD0BD /* TableViewController.swift in Sources */,
+				588D70FA2890D1B800FB931B /* NetworkService.swift in Sources */,
+				580F480B288D5149001AD0BD /* Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		580F47EC288D3C07001AD0BD /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				580F47ED288D3C07001AD0BD /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		580F47F1288D3C0A001AD0BD /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -292,7 +439,6 @@
 				INFOPLIST_FILE = AutoCheckAfrica/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -320,7 +466,6 @@
 				INFOPLIST_FILE = AutoCheckAfrica/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -358,6 +503,69 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		580F4812288D594C001AD0BD /* XCRemoteSwiftPackageReference "SDWebImage" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImage.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+		588D70ED2890B5F500FB931B /* XCRemoteSwiftPackageReference "SVGKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SVGKit/SVGKit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.0.0;
+			};
+		};
+		588D70F02890D0F000FB931B /* XCRemoteSwiftPackageReference "RxSwift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ReactiveX/RxSwift";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.0.0;
+			};
+		};
+		588D70F52890D16100FB931B /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		580F4813288D594C001AD0BD /* SDWebImage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 580F4812288D594C001AD0BD /* XCRemoteSwiftPackageReference "SDWebImage" */;
+			productName = SDWebImage;
+		};
+		588D70EE2890B5F500FB931B /* SVGKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 588D70ED2890B5F500FB931B /* XCRemoteSwiftPackageReference "SVGKit" */;
+			productName = SVGKit;
+		};
+		588D70F12890D0F000FB931B /* RxRelay */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 588D70F02890D0F000FB931B /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxRelay;
+		};
+		588D70F32890D0F000FB931B /* RxSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 588D70F02890D0F000FB931B /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxSwift;
+		};
+		588D70F62890D16100FB931B /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 588D70F52890D16100FB931B /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 580F47DB288D3C07001AD0BD /* Project object */;
 }
