@@ -91,7 +91,6 @@ class CarDetailsVC: UIViewController {
         view.backgroundColor = .white
         view.layer.cornerRadius = 10
         view.layer.shadowOpacity = 0.2
-        view.layer.shouldRasterize = true
         view.heightAnchor.constraint(equalToConstant: 400).isActive = true
         view.layer.shadowOffset = CGSize(width: -1, height: 1)
         return view
@@ -238,7 +237,6 @@ class CarDetailsVC: UIViewController {
         view.translatesAutoresizingMaskIntoConstraints = false
         view.layer.cornerRadius = 10
         view.layer.shadowOpacity = 0.2
-        view.layer.shouldRasterize = true
         view.heightAnchor.constraint(equalToConstant: 150).isActive = true
         view.layer.shadowOffset = CGSize(width: -1, height: 1)
         view.backgroundColor = .white
