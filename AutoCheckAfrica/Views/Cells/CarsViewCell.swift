@@ -55,7 +55,6 @@ class CarsViewCell: UICollectionViewCell {
         lbl.translatesAutoresizingMaskIntoConstraints = false
         lbl.textColor = UIColor(named: "grayColor")
         lbl.numberOfLines = 1
-        lbl.attributedText = "Kes \(30000)".strikeThrough()
         return lbl
     }()
     
@@ -142,7 +141,7 @@ class CarsViewCell: UICollectionViewCell {
         
         lblTitle.text = item.title
         if item.marketplacePrice < item.marketplaceOldPrice {
-            lblOldAmount.text = String(describing: "Kes \(formatAmount(amount: item.marketplaceOldPrice))")
+            lblOldAmount.attributedText = "Kes \(formatAmount(amount: item.marketplaceOldPrice))".strikeThrough()
         }
         lblAmount.text =  String(describing: "Kes \(formatAmount(amount: item.marketplacePrice))")
     }
